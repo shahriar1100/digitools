@@ -18,32 +18,47 @@
 <body>
     <!-- Header Start -->
     <section id="header" class="py-9 shadow shadow-[#F2F2F2]">
-        <div class="headerPart flex justify-between items-center container m-auto">
-            <div class="logo">
-                <img src="assets/DigiTools.png" alt="assets/DigiTools.png">
-            </div>
-            <div class="menu">
-                <ul class="flex items-center gap-x-8 text-[16px] font-manrope">
-                    <li>
-                        <a href="#">Products</a>
-                    </li>
-                    <li>
-                        <a href="#">Features</a>
-                    </li>
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#">Testimonials</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="btn-text font-manrope gap-3 flex items-center">
-                <p><i class="fa-solid fa-bag-shopping text-[24px] mr-3"></i>Login</p>
-                <button class="py-[12.5px] px-[16px] bg-gradient-to-r from-[#8B2CFF] to-[#6A0DFF] hover:from-[#7A1EEB] hover:to-[#5B08EB] text-white font-medium py-3 px-8 rounded-full transition-all duration-200 shadow-md">Get Started</button>
+
+        <div id="head" class="container m-auto ">
+
+            <div class="headerPart flex justify-between items-center ">
+                <div class="logo flex">
+                    <!-- menu bar -->
+                    <div class="menuBar xl:hidden md:hidden text-4xl">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- menu bar -->
+                    <div class="hidden md:block">
+                        <img src="assets/DigiTools.png" alt="assets/DigiTools.png">
+                    </div>
+                </div>
+
+                <div class="menu hidden md:block">
+
+                    <ul class="flex items-center gap-x-8 text-[16px] font-manrope">
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn-text font-manrope gap-3 flex items-center">
+                    <p><i class="fa-solid fa-bag-shopping text-[24px] mr-3"></i>Login</p>
+                    <button
+                        class="py-[12.5px] px-[16px] bg-gradient-to-r from-[#8B2CFF] to-[#6A0DFF] hover:from-[#7A1EEB] hover:to-[#5B08EB] text-white font-medium py-3 px-8 rounded-full transition-all duration-200 shadow-md">Get
+                        Started</button>
+                </div>
             </div>
         </div>
     </section>
