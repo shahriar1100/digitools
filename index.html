@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -21,10 +21,10 @@
 
         <div id="head" class="container m-auto ">
 
-            <div class="headerPart flex justify-between items-center ">
+            <div class="headerPart flex justify-between items-center relative md:static">
                 <div class="logo flex">
                     <!-- menu bar -->
-                    <div class="menuBar xl:hidden md:hidden text-4xl">
+                    <div id="menuIcon" class="menuBar xl:hidden md:hidden text-4xl">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                     <!-- menu bar -->
@@ -33,9 +33,9 @@
                     </div>
                 </div>
 
-                <div class="menu hidden md:block">
+                <div id="menuBox" class="menu hidden md:block ">
 
-                    <ul class="flex items-center gap-x-8 text-[16px] font-manrope">
+                    <ul class="md:static md:flex-row md:items-center md:mt-0 md:pl-0 xl:flex md:items-center duration-300 gap-x-8 text-[16px] font-manrope items-start absolute left-0 top-10 pl-4 mt-5 flex flex-col gap-y-4">
                         <li>
                             <a href="#">Products</a>
                         </li>
@@ -108,7 +108,7 @@
     <!-- Header Start -->
 
     <!-- Header End -->
-
+<script src="js/script.js"></script>
 </body>
 
 </html>
